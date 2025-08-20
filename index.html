@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>SURVEY FORM</h1>
+    <form action="#" method="post">
+    <div class="table">
+        <p>Let us know how we can improve</p><br>
+        <table>
+            <tr>
+                <td><label>*Name</label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label>*Email</label></td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td><label>*Age</label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label>Which option best describes your current role?</label></td>
+                <td><select name="role">
+                    <option value="Student">Student</option>
+                    <option value="working">Working</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>*How likely is that you would recommend this <br> program to a friend?</label></td>
+                <td>
+                    <input type="radio" name="recommend" value="definetly" required><label>Definetly</label><br>
+                    <input type="radio" name="recommend" value="maybe"><label>Maybe</label><br>
+                    <input type="radio" name="recommend" value="notsure"><label>Not Sure</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>What do you like most in here:</label></td>
+                <td><select name="most">
+                    <option value="null">Select an Option</option>
+                    <option value="project">Project</option>
+                    <option value="community">Community</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Things that should bbe improved in the future<br>(Check all that apply):</label></td>
+                <td><input type="checkbox" name="improve" value="frontend">Front-end Projects <br>
+                    <input type="checkbox" name="improve" value="backend">Back-end Projects <br>
+                    <input type="checkbox" name="improve" value="datavisualisation">Data Visualisation</td>
+            </tr>
+            <tr>
+                <td><label>Any comments or suggestions?</label></td>
+                <td><textarea name="suggestion">Enter your comment here...</textarea></td>
+            </tr>
+        </table>
+        <div class="sub">
+            <input type="submit" value="Submit">
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>

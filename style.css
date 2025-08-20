@@ -1,0 +1,140 @@
+/* /* div{
+    border: 2px solid blue;
+    padding: 50px 460px;
+} */
+
+
+/* combinatorss */
+
+
+
+/* div p{
+    background-color: aqua;
+} */
+
+/* div>p{
+    background-color: aqua;
+} */
+
+/* div+p{
+    background-color: aqua;
+} */
+
+/* div~p{
+    background-color: aqua;
+}  */
+
+/* a:link{
+    color: red;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    background-color: rgb(138,138,164);
+}
+
+a:active{
+    background-color: green;
+}
+
+
+
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+    border-radius: 50px;
+}
+
+p::first-line{
+    color: aqua;
+}
+p::first-letter{
+    font-size: xx-large;
+    color: black;
+}
+
+p::before{
+    content: "🎶";
+}
+
+p::after{
+    content: "😊";
+} */
+
+body{
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white ;
+}
+.table{
+    background-color: aliceblue;
+    margin: 33px auto;
+    height: 750px;
+    width: 1000px;
+    border-radius: 5px;
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+    color: grey;
+}
+table{
+    padding-left: 140px;
+}
+td {
+  padding: 10px;
+}
+td:first-child{
+    text-align: right;
+    font-weight: bold;
+    padding-right: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 95%;
+    height: 80px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize:none;
+}
+
+
+
+input[type="radio"],input[type="checkbox"]{
+  margin-right: 8px;
+}
+
+.sub{
+    text-align: center;
+    margin-top: 17px;
+}
+
+input[type="submit"] {
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(6, 171, 226);
+}
